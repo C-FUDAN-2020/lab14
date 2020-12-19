@@ -65,7 +65,7 @@ bool compare(Node* list1, Node* list2) {
   例如：
     输入：list1 = [0,1,2,3,4,5], a = 3, b = 4, list2 = [1000000,1000001,1000002]
     输出：[0,1,2,1000000,1000001,1000002,5]
-    解释：我们删除 list1 中第三和第四个节点，并将 list2 接在该位置。上图中蓝色的边和节点为答案链表。
+    解释：我们删除 list1 中第三和第四个节点，并将 list2 接在该位置。
   */
 
 Node* mergeInBetween(Node* list1, int pos1, int pos2, Node* list2){
